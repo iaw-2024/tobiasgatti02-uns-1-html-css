@@ -7,17 +7,20 @@ h1 {
 }
 
 nav {
-    background-color: #000;
+    background-color:cadetblue;
     color: #fff;
     padding: 5px;
     text-align: center;
 }
 
+
+
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: center;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -26,7 +29,18 @@ nav ul li a {
     text-decoration: none;
     padding: 10px;
     display: block;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+nav ul li {
+    margin: 0 10px;
+}
+:hover a{
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
 }
 
 ul {
